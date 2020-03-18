@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38571" started-at="2020-03-14T12:39:57Z" finished-at="2020-03-14T12:40:36Z">
+    <groups>
+    </groups>
+    <test name="Homepage" duration-ms="23923" started-at="2020-03-14T12:39:57Z" finished-at="2020-03-14T12:40:21Z">
+      <class name="com.academy.pom.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.academy.pom.HomePage@79079097]" name="initialize" is-config="true" duration-ms="1621" started-at="2020-03-14T12:39:57Z" finished-at="2020-03-14T12:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAppNav(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.academy.pom.HomePage@79079097]" name="validateAppNav" duration-ms="17042" started-at="2020-03-14T12:39:59Z" data-provider="getData" finished-at="2020-03-14T12:40:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234456778888]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non_Restricted Users]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppNav -->
+        <test-method status="PASS" signature="validateAppNav(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.academy.pom.HomePage@79079097]" name="validateAppNav" duration-ms="5080" started-at="2020-03-14T12:40:16Z" data-provider="getData" finished-at="2020-03-14T12:40:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[156778888]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted Users]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppNav -->
+        <test-method status="PASS" signature="terdown()[pri:0, instance:com.academy.pom.HomePage@79079097]" name="terdown" is-config="true" duration-ms="159" started-at="2020-03-14T12:40:21Z" finished-at="2020-03-14T12:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+      </class> <!-- com.academy.pom.HomePage -->
+    </test> <!-- Homepage -->
+    <test name="Validate Title" duration-ms="14630" started-at="2020-03-14T12:40:21Z" finished-at="2020-03-14T12:40:36Z">
+      <class name="com.academy.pom.validateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.academy.pom.validateTitle@d35dea7]" name="initialize" is-config="true" duration-ms="14382" started-at="2020-03-14T12:40:21Z" finished-at="2020-03-14T12:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="ValidateAppTitle()[pri:0, instance:com.academy.pom.validateTitle@d35dea7]" name="ValidateAppTitle" duration-ms="91" started-at="2020-03-14T12:40:36Z" finished-at="2020-03-14T12:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAppTitle -->
+        <test-method status="PASS" signature="terdown()[pri:0, instance:com.academy.pom.validateTitle@d35dea7]" name="terdown" is-config="true" duration-ms="154" started-at="2020-03-14T12:40:36Z" finished-at="2020-03-14T12:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+      </class> <!-- com.academy.pom.validateTitle -->
+    </test> <!-- Validate Title -->
+  </suite> <!-- Suite -->
+</testng-results>

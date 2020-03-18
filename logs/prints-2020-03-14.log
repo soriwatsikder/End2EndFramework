@@ -1,0 +1,12 @@
+12:43:58.327 [main] INFO  resources.baseClass - Browser clossed after Loging Page got validated
+12:43:59.650 [main] INFO  resources.baseClass - Driver is initialized For Validating Home Page
+12:44:06.683 [main] INFO  resources.baseClass - Navigated to Home Page to Validate
+12:44:06.726 [main] INFO  resources.baseClass - Successfully validated the Tilte
+12:44:06.792 [main] INFO  resources.baseClass - Navigation Bar Successfully Displayed
+12:44:06.971 [main] INFO  resources.baseClass - Validation is Done and Closed Browser
+12:46:15.313 [main] INFO  resources.baseClass - Driver is initialized For Validating LogIn
+12:46:15.345 [main] INFO  resources.baseClass - Passed first Authentication For Login Validation
+12:46:15.345 [main] INFO  resources.baseClass - Passed second Authentication for Login Validation
+12:46:22.675 [main] INFO  resources.baseClass - Navigated to Home Page to Validate Login
+12:46:26.034 [main] INFO  resources.baseClass - Non_Restricted Users
+12:46:29.283 [main] INFO  resources.baseClass - Navigated to Home Page to Validate Login
